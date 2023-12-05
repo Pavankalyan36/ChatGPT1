@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shopping</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.php">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <img src="background.jpg" alt="Background Image">
+        <!-- Add your video options here if needed -->
+        <div class="hero-text">
+            <h2>Welcome to Our Online Store</h2>
+            <p>Shop the latest products with ease.</p>
+        </div>
+    </section>
+    
+    <section id="featured-products">
+        <h2>Featured Products</h2>
+        <!-- Display featured products with images, descriptions, and buttons -->
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1.</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Repeat for other products -->
+    </section>
+    
+    <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest offers and products.</p>
+        <form action="subscribe.php" method="POST">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Online Shopping</p>
+    </footer>
+</body>
+</html>
